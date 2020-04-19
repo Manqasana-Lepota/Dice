@@ -1,14 +1,15 @@
 public class DiceFactory {
 
-    Dice dice = new Dice(20,new int[7]);
+    /**
+     * creating a new Die
+     * @param numberOfSides
+     * @param probabilities
+     * @return a die value
+     */
+    public Die makeDie(int numberOfSides, int...probabilities)  {
+        Die die = new Die(numberOfSides,probabilities);
+        return die;
+    }//end of method
+}//end of class
 
-    public void makeDie () {
 
-        System.out.println("Rolling our die with " + dice.getSides() + " sides:");
-        for (int i = 0; i < 10; i++) {
-            dice.roll();
-            System.out.println("Roll " + (i + 1) + " the value after rolling : " + dice.getValue());
-
-        }
-    }
-}
