@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="DieTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-19T17:18:31" hostname="umuzi-admin" time="0.645">
+<testsuite name="DieTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-07-21T11:05:00" hostname="umuzi-admin" time="0.706">
   <properties/>
-  <testcase name="numberOfSidesTwentyDie" classname="DieTest" time="0.644"/>
-  <testcase name="numberOfSidesSixDie" classname="DieTest" time="0.0"/>
+  <testcase name="fairDie" classname="DieTest" time="0.705"/>
+  <testcase name="numberOfSidesTwentyDie" classname="DieTest" time="0.0"/>
+  <testcase name="numberOfSidesSixDie" classname="DieTest" time="0.001"/>
+  <testcase name="weightedDie" classname="DieTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
